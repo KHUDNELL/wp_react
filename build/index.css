@@ -1,0 +1,85 @@
+/*!*********************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/styles/main.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************/
+.test-component {
+  margin: 15px 0;
+  background-color: #521ae0;
+  color: #FFF;
+  padding: 20px;
+  border-radius: 5px;
+}
+.test-component h1 {
+  font-weight: normal;
+  font-size: 1.2rem;
+  padding: 0;
+  margin: 0;
+}
+.test-component p {
+  margin: 0;
+  font-size: 0.88rem;
+}
+
+html, body {
+  background-color: #FFF;
+}
+
+body {
+  color: #333;
+  font-family: sans-serif;
+  font-size: 0.9rem;
+}
+@media screen and (min-width: 520px) {
+  body {
+    padding: 20px;
+    font-size: 1.1rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  body {
+    padding: 60px;
+    font-size: 1.2rem;
+  }
+}
+
+a:link, a:visited {
+  color: #521ae0;
+}
+
+a:hover {
+  color: #ff0077;
+}
+
+/* Nav Menu */
+.navigation-menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-menu ul:before, .navigation-menu ul:after {
+  content: "";
+  display: table;
+}
+
+.navigation-menu ul:after {
+  clear: both;
+}
+
+.navigation-menu ul {
+  *zoom: 1;
+}
+
+.navigation-menu ul li {
+  list-style: none;
+  float: left;
+  margin-right: 3px;
+}
+
+.navigation-menu ul li a:link,
+.navigation-menu ul li a:visited {
+  display: block;
+  padding: 12px 17px;
+  border-bottom: none;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=index.css.map*/
